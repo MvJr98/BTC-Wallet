@@ -4,7 +4,7 @@ const bip39 = require('bip39')
 const bitcoin = require('bitcoinjs-lib')
 
 //definir a rede
-//testenet - rede de teste (a rede principal seria - bitcoin - mainnet)
+//testenet - rede de teste (a rede principal seria "bitcoin" - mainnet)
 const network = bitcoin.networks.testnet
 
 //derivacao de carteiras HD
